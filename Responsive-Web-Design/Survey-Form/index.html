@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>School Survey Form</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<h1 id="title">School Survey Form</h1>
+		
+		<div id="form">
+			<p id="description">Let us know more about you.</p>
+			<form  id="survey-form">
+				
+				<label id="name-label" for="first-name">First and Last Name:</label><br>
+				<input id ="name" class="form-style" type="text" name="first-name" placeholder="Enter your name." required>
+				<br>
+				<br>
+				
+				<label id="email-label" for="last-name">Email:</label><br>
+				<input id="email" class="form-style" type="email" name="last-name" required placeholder="Enter your email.">
+				<br>
+				<br>
+				
+				<label id="number-label" for="id">Grade:</label><br>
+				<input id="number" class="form-style" type="number" name="id" min="9" max="12" placeholder="Grade">
+				<br>
+				<br>
+				
+				<label for="overall-experience">How would you rate your overall experience at Olympian High School?</label><br>
+				<select id="dropdown" class="form-style" name="overall-experience">
+					<option disabled value>Select an option</option>
+					<option value="amazing">Amazing!</option>
+					<option value="great">Great!</option>
+					<option value="good">Good!</option>
+					<option value="okay">Okay.</option>
+					<option value="mild">Mild</option>
+					<option value="bad">Bad</option>
+					<option value="horrible">Horrible</option>
+				</select>
+				<br>
+				<br>
+				
+				<div class="list">
+					<label for="counselor">Who is your current school counselor?</label><br>
+					<ul>	
+						<li class="radio"><label><input name="radio-buttons" value="1" type="radio" class="counselor">Mr. Alasta</label></li><br>
+						<li class="radio"><label><input name="radio-buttons" value="2" type="radio" class="counselor">Ms. Michelle</label></li><br>
+						<li class="radio"><label><input name="radio-buttons" value="3" type="radio" class="counselor">Ms. Ferguson</label></li><br>
+						<li class="radio"><label><input name="radio-buttons" value="4" type="radio" class="counselor">Mr. Hane</label></li><br>
+						<li class="radio"><label><input name="radio-buttons" value="5" type="radio" class="counselor">Ms. Yamate</label></li><br>
+					</ul>
+				</div>
+				<br>
+				<br>
+				
+				<div class="list">
+					<label for="ap-classes">Check all AP classes you have taken:</label> <br>
+						<input type="checkbox" name="ap-1" value="biology">AP Biology<br>
+						<input type="checkbox" name="ap-2" value="chemistry">AP Chemistry<br>
+						<input type="checkbox" name="ap-3" value="physics">AP Physics C: Mechanics<br>
+						<input type="checkbox" name="ap-4" value="calc-ab">AP Calculus AB<br>
+						<input type="checkbox" name="ap-5" value="calc-bc">AP Calculus BC<br>
+						<input type="checkbox" name="ap-6" value="csp">AP Computer Science Principles<br>
+						<input type="checkbox" name="ap-7" value="csa">AP Computer Science A<br>
+						<input type="checkbox" name="ap-8" value="stats">AP Statistics<br>
+						<input type="checkbox" name="ap-9" value="lang">AP English Language and Composition<br>
+						<input type="checkbox" name="ap-10" value="lit">AP English Literature<br>
+						<input type="checkbox" name="ap-11" value="wh">AP World History<br>
+						<input type="checkbox" name="ap-12" value="ush">AP US History<br>
+						<input type="checkbox" name="ap-13" value="us-gov">AP US Government<br>
+						<input type="checkbox" name="ap-14" value="psych">AP Psychology<br>
+						<input type="checkbox" name="ap-15" value="hug">AP Human Geography<br>
+						<input type="checkbox" name="ap-16" value="art-h">AP Art History<br>
+						<input type="checkbox" name="ap-17" value="studio">AP Studio Art<br>
+						<input type="checkbox" name="ap-18" value="splang">AP Spanish Language<br>
+						<input type="checkbox" name="ap-18" value="split">AP Spanish Literature<br>
+				</div>
+				<br>
+				<br>
+				
+				<label for="text-area">Questions, Comments, or Concerns:</label><br>
+				<textarea name="comment" class="form-style" name ="text-area" placeholder="Type here..."></textarea>
+				<br>
+				<br>
+				
+				<button id="submit" type="submit">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>

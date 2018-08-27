@@ -1,0 +1,53 @@
+body {
+	font-family: Arial;
+	background-color: #66A5AD;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+ul, li {
+	list-style-type: none;
+	padding: 0px;
+	padding
+}
+
+textarea {
+	width: 500px;
+	height: 200px;
+}
+
+.lis, .radio {
+	text-align: justify;
+	position: relative;
+	display: block;
+	
+}
+
+.form-style {
+	border-radius: 5px 5px 5px 5px;
+	background-color: ;
+	font-family: Arial;
+	border: 1px solid grey;
+}
+
+#description {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#form {
+	border-radius: 15px 15px 15px 15px;
+	list-style-type: none;
+	text-align: left;
+	padding: 20px;
+	background-color: #C4DFE6;
+	max-width: 500px;
+	margin: auto;
+	border: 2px solid #003B46;
+}
+
